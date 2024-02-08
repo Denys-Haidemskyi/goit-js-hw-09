@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/js/1-gallery.js"],"sourcesContent":["// Описаний в документації\nimport SimpleLightbox from 'simplelightbox';\n// Додатковий імпорт стилів\nimport 'simplelightbox/dist/simple-lightbox.min.css';\nconsole.log(SimpleLightbox);\n"],"names":["SimpleLightbox"],"mappings":"oGAIA,QAAQ,IAAIA,CAAc"}
