@@ -108,3 +108,4 @@ galleryContainer.on('show.simplelightbox', function () {
   // do something…
 });
 //TODO! Это пример с документации, нужно сделать что бы нормально открывалось и alt появлялся спустя 250ms
+d;
