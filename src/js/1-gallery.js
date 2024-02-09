@@ -69,7 +69,7 @@ const images = [
   },
 ];
 
-const galleryContainer = document.querySelector('.gallery');
+const galleryContainer = document.querySelector('.list-image');
 
 // Добавление элементов на страницу
 images.forEach(image => {
@@ -93,19 +93,9 @@ images.forEach(image => {
   galleryContainer.appendChild(listItem);
 });
 
-galleryContainer = new SimpleLightbox('.gallery a');
-galleryContainer.on('show.simplelightbox', function () {
-  // do something…
+let lightbox = new SimpleLightbox('.list-image a', {
+  captions: true,
+  captionsDelay: 250,
+  captionsData: 'alt',
 });
-
-galleryContainer.on('error.simplelightbox', function (e) {
-  console.log(e); // some usefull information
-});
-
-// with jQuery nearly the same
-galleryContainer = $('.gallery a').simpleLightbox();
-galleryContainer.on('show.simplelightbox', function () {
-  // do something…
-});
-//TODO! Это пример с документации, нужно сделать что бы нормально открывалось и alt появлялся спустя 250ms
-d;
+//TODO! Это пример с документации, нужно сделать что бы нормально открывалось и alt появлялся спустя 250ms [Done]
