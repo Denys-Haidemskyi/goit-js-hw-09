@@ -1,0 +1,2 @@
+import"./assets/styles-28ee5196.js";const t=document.querySelector(".feedback-form");let s=document.getElementsByName("email")[0];const m=document.getElementsByName("message")[0];document.getElementsByTagName("button")[0];const a=sessionStorage.getItem("feedback-form-state");s.value=a;m.value=a;t.addEventListener("click",o=>{o.preventDefault;const e=s.value;sessionStorage.setItem("feedback-form-state",e),sessionStorage.setItem("feedback-form-state",e),t.reset()});
+//# sourceMappingURL=commonHelpers2.js.map
