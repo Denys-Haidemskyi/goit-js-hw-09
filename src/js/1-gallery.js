@@ -98,4 +98,3 @@ let lightbox = new SimpleLightbox('.list-image a', {
   captionsDelay: 250,
   captionsData: 'alt',
 });
-//TODO! Это пример с документации, нужно сделать что бы нормально открывалось и alt появлялся спустя 250ms [Done]
